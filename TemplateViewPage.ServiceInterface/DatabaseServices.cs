@@ -12,8 +12,8 @@ namespace TemplateViewPage.ServiceInterface
 	{
 		public object Any(Database request)
 		{
-			//return new HttpResult(new DatabaseResponse { DatabaseUrl = $"Database: {request.Name}!" });
-			return new DatabaseResponse { DatabaseUrl = $"Database: {request.Name}!" });
+			return new HttpResult(new DatabaseResponse { DatabaseUrl = $"Database: {request.Name}!" });
+			//return new DatabaseResponse { DatabaseUrl = $"Database: {request.Name}!" };
 		}
 	}
 }
