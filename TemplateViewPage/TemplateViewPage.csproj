@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ServiceStack" Version="5.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TemplateViewPage.ServiceInterface\TemplateViewPage.ServiceInterface.csproj" />
+    <ProjectReference Include="..\TemplateViewPage.ServiceModel\TemplateViewPage.ServiceModel.csproj" />
+  </ItemGroup>
+
+</Project>
